@@ -1,5 +1,5 @@
-import sys
-from decimal import *
+//import sys
+//from decimal import *
 
 console.log("Kevin's Collatz");
 
