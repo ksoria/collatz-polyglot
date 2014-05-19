@@ -1,5 +1,5 @@
-//import sys
-//from decimal import *
+from sys import argv
+from decimal import *
 
 console.log("Kevin's Collatz");
 
@@ -13,7 +13,7 @@ function collatz(x) {
     else {
        x = 3*x + 1;
     }
-     seq.concat(x);
+    seq.concat(x);
   }  
   return seq;
 }
