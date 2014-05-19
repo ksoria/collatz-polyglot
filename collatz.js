@@ -4,7 +4,7 @@
 console.log("Kevin's Collatz");
 
 function collatz(x) {
-  var seq = 'x';
+  var seq = x;
   
   while (x > 1) {
     if (x % 2 == 0) {
@@ -13,7 +13,7 @@ function collatz(x) {
     else {
        x = 3*x + 1;
     }
-     ("seq").append("x");
+     (seq).push(x);
   }  
   return seq;
 }
