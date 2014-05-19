@@ -13,7 +13,7 @@ function collatz(x) {
     else {
        x = 3*x + 1;
     }
-     seq.append(x);
+     ("seq").append("x");
   }  
   return seq;
 }
