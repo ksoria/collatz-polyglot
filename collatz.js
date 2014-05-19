@@ -5,15 +5,15 @@ function collatz(x) {
   
   while (x > 1) {
     if (x % 2 == 0) {
-      x = x / 2
+      x = x / 2;
     }
     else {
-       x = 3*x + 1
+       x = 3*x + 1;
     }
-     seq.append(x)
+     seq.append(x);
   }  
-  return seq
+  return seq;
 }
 
-collatz(56)
-  
+var result = collatz(56);
+console.log(result);
