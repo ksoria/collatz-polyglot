@@ -15,5 +15,14 @@ function collatz(x) {
   return seq;
 }
 
-var result = collatz(56);
-console.log(result);
+try{
+    start = int(Decimal(sys.argv[1]))
+}
+catch(err){
+    console.log("Usage: collatz starting-number (default is 10)")
+    start = 10
+}
+
+seq = collatz(start)
+console.log(seq)
+console.log("collatz(%d) has %d items" % (start, len(seq)))
